@@ -1,0 +1,7 @@
+odict.o: odict.cpp ul_conf.h ul_log.h ul_func.h ul_file.h odict.h
+main1.o: main1.cpp ul_sign.h odict.h
+main2.o: main2.cpp ul_sign.h ul_dict.h odict.h
+main3.o: main3.cpp ul_sign.h odict.h
+test_odb_128.o: test_odb_128.cpp odict.h
+test_odb_64.o: test_odb_64.cpp odict.h
+mass_data_save_test.o: mass_data_save_test.cpp ul_sign.h odict.h
